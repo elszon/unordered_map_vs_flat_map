@@ -2,10 +2,10 @@ project(bench_maps)
 cmake_minimum_required(VERSION 3.5)
 
 #set( CMAKE_C_COMPILER   "gcc-5" )
-#set( CMAKE_CXX_COMPILER "g++-5" )
+#set( CMAKE_CXX_COMPILER "clang++" )
 
 set (CMAKE_C_STANDARD   11)
-set (CMAKE_CXX_STANDARD 14)
+set (CMAKE_CXX_STANDARD 17)
 
 #add_compile_options(-c)
 
